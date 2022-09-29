@@ -1,0 +1,34 @@
+
+
+.mapContainer {
+  height: 90.3vh;
+  width: 90%;
+}
+
+.markerContainer{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  z-index: 1;
+  
+}
+
+.markerContainer:hover{
+  z-index: 2;
+}
+
+.paper{
+ border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+
+
+.pointer{
+  cursor: pointer;
+}
