@@ -56,10 +56,10 @@ export default function List({
   return (
     <Flex
       id="list"
-      w="530px"
+      w="500px"
       flexDirection="column"
-      maxHeight=" 90.3vh;"
-      overflowX="auto"
+      maxH="100%"
+      overflow="auto"
     >
       {isLoading ? (
         <Lottie options={defaultOptions} width="400px" height="400px" />

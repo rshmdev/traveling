@@ -17,7 +17,7 @@ export default function Header({ setCoordinates }) {
   return (
     <>
       <Box bg="rgba(0,0,0,0.8)" px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex h="10vh" alignItems={"center"} justifyContent={"space-between"}>
           <Box>
             <Image w="60px" h="60px" src={logo} />
           </Box>

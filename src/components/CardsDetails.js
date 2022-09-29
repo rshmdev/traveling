@@ -65,7 +65,7 @@ export default function CardDetais({
     <Flex w="full" alignItems="center" justifyContent="center">
       <Box
         bg={useColorModeValue("white", "gray.800")}
-        maxW="sm"
+        w="400px"
         borderWidth="1px"
         rounded="lg"
         shadow="lg"

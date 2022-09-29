@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import List from "./components/List";
@@ -41,7 +41,7 @@ export default function App() {
   return (
     <>
       <Header setCoordinates={setCoordinates} />
-      <Flex>
+      <Flex h="90vh">
         <List
           places={filteredPlaces.length ? filteredPlaces : places}
           childClick={childClick}
@@ -57,7 +57,7 @@ export default function App() {
           setCoordinates={setCoordinates}
           setBounds={setBounds}
           coordinates={coordinates}
-          places={filteredPlaces.length ? filteredPlaces : places}
+          places={filteredPlaces?.length ? filteredPlaces : places}
           setChildClick={setChildClick}
         />
       </Flex>
