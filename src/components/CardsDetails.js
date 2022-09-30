@@ -76,7 +76,7 @@ export default function CardDetais({
           maxH="300px"
           w="100%"
           src={
-            places.photo
+            places?.photo
               ? places.photo.images.large.url
               : "https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg"
           }
@@ -93,12 +93,12 @@ export default function CardDetais({
               lineHeight="tight"
               isTruncated
             >
-              {places.name}
+              {places?.name}
             </Box>
           </Flex>
 
           <Flex mt="20px">
-            <Rating rating={places.rating} numReviews={places.num_reviews} />
+            <Rating rating={places?.rating} numReviews={places?.num_reviews} />
           </Flex>
           <Flex flexDirection="column" gap="30px">
             <Flex mt="20px" alignItems="center">

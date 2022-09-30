@@ -24,7 +24,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const filtered = places?.filter((place) => Number(place.rating) > rating);
+    const filtered = places?.filter((place) => Number(place?.rating) > rating);
 
     setFilteredPlaces(filtered);
   }, [rating]);
@@ -43,7 +43,7 @@ export default function App() {
       <Header setCoordinates={setCoordinates} />
       <Flex h="90vh">
         <List
-          places={filteredPlaces.length ? filteredPlaces : places}
+          places={filteredPlaces?.length ? filteredPlaces : places}
           childClick={childClick}
           isLoading={isLoading}
           setType={setType}
