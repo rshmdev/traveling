@@ -1,9 +1,10 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import List from "./components/List";
 import Map from "./components/Map";
 import { getPlacesData } from "./services/api";
+import "./index.css";
 
 export default function App() {
   const [places, setPlaces] = useState([]);
@@ -41,7 +42,7 @@ export default function App() {
   return (
     <>
       <Header setCoordinates={setCoordinates} />
-      <Flex h="90vh">
+      <Flex className="main" h="90vh">
         <List
           places={filteredPlaces?.length ? filteredPlaces : places}
           childClick={childClick}

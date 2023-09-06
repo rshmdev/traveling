@@ -66,6 +66,7 @@ export default function CardDetais({
       <Box
         bg={useColorModeValue("white", "gray.800")}
         w="400px"
+        maxW="100%"
         borderWidth="1px"
         rounded="lg"
         shadow="lg"

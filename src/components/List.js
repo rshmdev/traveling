@@ -11,6 +11,8 @@ import React, { createRef, useEffect, useState } from "react";
 import CardDetais from "./CardsDetails";
 import Animation from "../assets/loading.json";
 import top from "../assets/top.png";
+import "../index.css";
+
 import Lottie from "react-lottie";
 
 export default function List({
@@ -56,17 +58,21 @@ export default function List({
   return (
     <Flex
       id="list"
+      overflowX="hidden"
       w="500px"
       flexDirection="column"
+      justifyContent={isLoading ? "center" : ""}
       maxH="100%"
+      maxW="100%"
       overflow="auto"
     >
       {isLoading ? (
-        <Lottie options={defaultOptions} width="400px" height="400px" />
+        <Lottie options={defaultOptions} width="200px" height="200px" />
       ) : (
         <>
           <FormControl
             ref={divTop}
+            className="form"
             mt="10px"
             display="flex"
             gap="20px"
@@ -109,7 +115,7 @@ export default function List({
             zIndex={2}
             position="fixed"
             mt="10px"
-            w="400px"
+            maxW="100%"
             alignItems="center"
             justifyContent="center"
           >
@@ -128,7 +134,7 @@ export default function List({
               src={top}
             />
           </Flex>
-          <Box>
+          <Box className="box-cards" overflowX="hidden">
             {places?.length <= 0 ? (
               <Text ml="20%" mt="50%" fontWeight="bold" fontSize="18px">
                 {type} not founds in your area
