@@ -1,7 +1,7 @@
 import GoogleMapReact from "google-map-react";
-import "../styles/Map.css";
 import { Image } from "@chakra-ui/react";
 import pointer from "../assets/pointer.png";
+import "../styles/Map.css";
 
 export default function Map({
   coordinates,
