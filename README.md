@@ -1,33 +1,56 @@
-```
-# Aplicativo de Busca de Viagens
+# Traveling
 
-Este é um aplicativo de busca de viagens que permite localizar hotéis, restaurantes e atrações próximos à sua localidade. Ele foi criado com React, Chakra UI e a API do Google Maps.
+![GitHub repo size](https://img.shields.io/github/repo-size/rshmdev/Traveling?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/rshmdev/Traveling?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rshmdev/Traveling?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/rshmdev/Traveling?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/rshmdev/Traveling?style=for-the-badge)
 
-## Funcionalidades
+<img src="portfolio.png" alt="Exemplo imagem">
 
-- Mapa interativo
-- Localização de hotéis, restaurantes e atrações próximos à sua localidade
-- Integração com a API do Google Maps
-
-## Configuração
-
-Para usar este aplicativo, você precisará de uma chave da API do Google Maps e uma chave da API do RapidAPI. Adicione suas chaves em um arquivo `.env` na raiz do projeto, como mostrado abaixo:
+> Este projeto representa a fusão perfeita entre tecnologia e viagens. Uma plataforma de pesquisa de hotéis, atrações e restaurantes, complementada por um mapa interativo. Aqui, os viajantes podem planejar cada detalhe da sua jornada, descobrindo os melhores lugares para ficar, visitar e saborear, tudo em um único lugar. Explore o mundo com praticidade e confiança.
 
 
-#REACT_APP_GOOGLE_API_KEY=sua_chave_aqui
-#REACT_APP_RAPID_API_KEY=sua_chave_aqui
+## 💻 Pré-requisitos
 
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-Substitua `sua_chave_aqui` pelas suas chaves da API do Google Maps e da API do RapidAPI. Você pode obter uma chave da API do RapidAPI no site https://rapidapi.com/apidojo/api/travel-advisor.
+* Você instalou a versão mais recente de `Node`
+* Você tem uma máquina `Windows / Linux / Mac`.
 
-## Uso
+## 🚀 Instalando Traveling
 
-Para iniciar o aplicativo, execute os seguintes comandos:
-
-
-#npm install
-#npm start
-
-Isso iniciará o aplicativo em `http://localhost:3000`.
+Para instalar o Traveling, siga estas etapas:
 
 ```
+https://github.com/rshmdev/Traveling.git
+```
+
+## ☕ Usando Traveling
+
+Para usar Traveling, siga estas etapas:
+
+Npm:
+```
+npm i
+```
+
+Yarn:
+```
+yarn install
+```
+
+# Inicie o projeto
+
+Yarn:
+
+```
+yarn start 
+```
+ 
+Npm
+```
+npm start 
+```
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
