@@ -6,7 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/rshmdev/Traveling?style=for-the-badge)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/rshmdev/Traveling?style=for-the-badge)
 
-<img src="portfolio.png" alt="Exemplo imagem">
+<img src="traveling.png" alt="Exemplo imagem">
 
 > Este projeto representa a fusão perfeita entre tecnologia e viagens. Uma plataforma de pesquisa de hotéis, atrações e restaurantes, complementada por um mapa interativo. Aqui, os viajantes podem planejar cada detalhe da sua jornada, descobrindo os melhores lugares para ficar, visitar e saborear, tudo em um único lugar. Explore o mundo com praticidade e confiança.
 
